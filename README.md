@@ -30,5 +30,29 @@ A snapshot of my educational background, professional experience, projects, and 
 📎 [View My CV](https://drive.google.com/file/d/10xDoUPy78sYDoBU5PD_qcEZKam6-irZ-/view?usp=drivesdk)
 
 ---
-##Project 
-###Python 
+## Project 
+
+### Python 
+[Disaster Risk Profiling & Insurance Premium Estimation](https://github.com/erichalestari/global-risk-metrics/blob/main/Risk_Profiling_and_Insurance_Premium_Estimation.ipynb)
+
+This project utilizes a multi-level data analysis framework to assess natural disaster risks and estimate insurance premiums based on regional vulnerability. Through exploratory data analysis and risk modeling, it identifies high-risk zones, evaluates exposure and vulnerability factors, and simulates premium costs using annual loss estimates. The results are presented with visualizations and summary tables to support insurance strategy and risk mitigation policies.
+
+### SQL 
+
+
+### R 
+
+
+---
+## Certifications
+
+- [IBM – Introduction to Data Analysis](https://coursera.org/verify/OEPNCS41KIDL)  
+- [TOEFL – ITERA Language Center](https://drive.google.com/file/d/12h5fApL3PW1gVkvkn3CfU8pISbgzTYg2/view?usp=sharing)  
+- [IBM – Data Classification & Summarization](https://www.credly.com/badges/e849f03f-f5aa-433-996d-8c2dd242dad1/public_url)
+
+---
+
+## 🤝 Connect with Me
+
+📧 erichamargaretalestari@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/erichalestari)
