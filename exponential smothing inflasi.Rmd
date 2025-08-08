@@ -1,0 +1,91 @@
+---
+title: 'Analisis nilai Ekspor dengan Double Exponential Smoothing '
+author: "ericha cantik"
+date: "2023-07-27"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+```{r}
+library(readxl)
+ekspor = read_excel("D:/Users/file lama/a s u s/Documents/ekspor.xlsx", col_types = c("numeric", 
+    "text", "numeric"))
+View(ekspor)
+```
+
+
+##Panggil Data dan Informasi Data
+```{r}
+statistika = summary(ekspor$Ekspor)
+statistika
+sd(ekspor$Ekspor)
+tabell= (statistika)
+tabell
+```
+# Terdapat nilai ekspor terkecil adalah 174208755, nilai ekspor terbesar adalah 674546011 dengan rata rata nilai ekspor sesbesar 332939044 pada tahun 2018 
+
+##Memanggil data historis Nilai Ekspor pada Database Ekspor
+```{r}
+ntp.ts = ts(ekspor$Ekspor, start = c(2018,1), frequency = 12)
+ntp.ts
+
+```
+##Visualisasi data nilai eskpor pada tahun 2018-2023
+```{r}
+
+par(mar = c(2,2,2,2))
+plot.ts(ntp.ts, col = "blue",lwd = 2, type = "b", pch = 7, main = "Data Aktual Nilai Ekspor")
+grid()
+```
+#Nilai ekspor mengalami volatilitas sepanjang tahun 2018-2023 dengan volatilitas tertinggi terjadi pada tahun 2021 sampai 2023 Dapat dilihat pada grafik nilai ekspor ditahun tersebut mengalami kenaikan yang cukup signifikan dibandingkan tahun sebelumnya dan dapat dilihat bahwa nilai ekspor dari tahun ke tahun memiliki tren naik yang artinya setiap tahun nilai ekspor bertambah secara postif 
+
+##Mendeteksi Apakah data memiliki tren atau musiman 
+```{r}
+tren =decompose(ntp.ts)
+tren
+plot(tren)
+```
+#dapat dilihat pada grafik dekomposisi bahwa data memiliki trend naik secara positif dan pada tabel seasonal atau musiman data memiliki karakteristik atau pola yang berulang sama dan tidak ada perbedaan pada waktu tertentu oleh karena itu data nilai ekspor tidak memiliki musim tertentu
+
+
+```{r}
+library(stats)
+hwntp1 =HoltWinters(ntp.ts, gamma = FALSE )
+hwntp1
+hwntp1$fitted
+```
+#Dapat dilihat bahwa nilia dari alpha berada jauh dari 0 yaitu sebesar 0.4 yang artinya data cukup responsif terhadap data terbaru dan nilai beta sebesar 0.1 yang artinya data mengalami kenaikan secara bertahap atau perlahan sehingga cocok untuk peramalan jangka panjang
+
+##Peramalan Nilai Ekspor
+```{r}
+library(forecast)
+prediksi1 = forecast(object = hwntp1, h = 5)
+prediksi2 = predict(hwntp1,5)
+prediksi2
+```
+#Hasil dari peramalan  5 periode menunjukan bahwa nilai ekspor akan terus naik ke arah positif secara perlahan namun nilai tersebut merupakan penurunan apabila dibandingkan dengan data aktual pada periode terakhir
+```{r}
+#plot data aktual dan hasil peramalan
+plot(ntp.ts, main = "Nilai Ekspor", lwd = 2, col = "blue", xlim = c(2018,2023), type = "o", pch = 15)
+limitdate = end(ntp.ts)[2]-(end(ntp.ts)[2]-1)/frequency(ntp.ts)
+abline(v=limitdate, lty=4)
+lines(hwntp1$fitted[,1], lwd = 2, col="red", type = "o", pch=12)
+lines(prediksi2, col="green", type = "o", pch = 10)
+
+#menambahkan legend
+legend("bottomleft", legend = c("Data Aktual", "Fitted Value", "Peramalan"), col = c("blue", "red", "green"), lty = 1, cex = 0.6, inset = 0.02)
+```
+#Garis biru merupakan nilai aktual dari data nilai ekspor sedangkan garis merah merupakan nilai ramalan dari hasil pemulusan metode DES dan garis hijau adalah nilai prediksi dari 5 periode yang akan datang. Dapat dilihat bahwa garis biru dan merah cukup sama yang berarti kesalahan pada peramalan juga cenderung kecil dan hasil prediksi untuk 5 periode kedepan dapat dikategorikan akurat
+
+##Perhitungan Kesalahan
+```{r}
+accuracy(hwntp1$fitted[,1],ntp.ts)
+sse1 = hwntp1$SSE
+sse1
+mse1 = hwntp1$SSE/length(ekspor$Ekspor)
+mse1
+```
+#Dapat dilihat bahwa nilai MAPE yang diperoleh aadalah 18 yang artinya nilai kesalahan pada peramalan ini kecil dan hasil peramalan dapat dikategorikan sangat baik
+
+##Nilai Ekspor dari 2018 hingga 2023 mengalami kenaikan kearah postif dan dengan proyek ini dapat dilihat bahwa dalam 5 periode kedepan nilai ekspor juga akan terus bertumbuh naik oleh karea itu diharapkan bagi masyarakat untuk dapat mempertahankan faktor faktor yang membuat nilai ekspor betumbuh secara postif dan diharapkan proyek ini dapat menjadi bagi masyarakat dalam mengambil langkah untuk mempertahankan pertumbuhan nilai ekspor
