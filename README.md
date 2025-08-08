@@ -42,7 +42,7 @@ This project utilizes a multi-level data analysis framework to assess natural di
 
 ### R 
 
-[Export Value Analysis Using Double Exponential Smoothing]
+[Export Value Analysis Using Double Exponential Smoothing](https://github.com/erichalestari/portofolio-ericha/blob/main/Nilai%20Ekspor.pdf)
 [Worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/exponential-smothing-inflasi.pdf)
 
 This project presents a time series analysis of Indonesia's export values from 2018 to 2023 using the Double Exponential Smoothing (DES) method, excluding seasonal components. Implemented in R with libraries such as readxl, forecast, and stats, the analysis reveals a consistent upward trend in export performance and generates five-period forecasts indicating gradual growth. Data visualization includes actual values, fitted trends, and forecasted points, while accuracy metrics like MAPE and MSE confirm the model's reliability for strategic planning and decision-making
