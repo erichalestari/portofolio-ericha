@@ -54,8 +54,7 @@ Key Insights:
 - The model supports scalable integration with real-world insurance schemes
 - Visualizations enhance interpretability for stakeholders and policymakers
 
-### SQL 
-
+Tools & Technologies: Python, Pandas, Matplotlib, Seaborn, Geopandas, Actuarial Modeling, Risk Scoring, Insurance Analytics
 
 ### R 
 
@@ -79,6 +78,8 @@ Key Findings:
 - Forecasts indicate a gradual decline in export values from January to May 2023
 - The DES model achieved a MAPE of 18.13% and RMSE of 83.35 million, categorized as “Good” accuracy
 
+Tools & Technologies: R, Excel, Time Series Forecasting, Double Exponential Smoothing, Statistical Analysis, Data Visualization
+
 ## [Multiple Linear Regression Analysis: The Impact of Macroeconomic Factors on the Indonesian Rupiah Exchange Rate (Case Study: 2021–2023](https://github.com/erichalestari/portofolio-ericha/blob/main/Analisis%20Regresi%20Berganda.pdf)
 [worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/anaregtubes.Rmd)
 
@@ -93,6 +94,31 @@ Key Findings:
 - Interest rate, inflation rate, and export value have a statistically significant impact on the Rupiah exchange rate
 - The regression model yields an Adjusted R² of 0.8515, indicating that 85.15% of the variation in exchange rate is explained by the independent variables
 
+Tools & Technologies: R, Excel, Statistical Modeling, Data Visualization, Econometrics
+
+## [Pure Premium Rate Estimation for Earthquake Insurance Using Generalized Linear Models (GLM)](https://github.com/erichalestari/portofolio-ericha/blob/main/Penentuan%20Premi%20Dengan%20GLM.pdf)
+[worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/Penentua%20Premi%20GLM.pdf)
+
+This project develops a statistical model to estimate pure premium rates for earthquake insurance using Generalized Linear Models (GLM). The analysis is based on real-world data from an Indonesian insurance company covering the period January 2018 to September 2023. The goal is to identify significant predictors of claim size and frequency, and to construct a reliable premium estimation model.
+
+Objectives:
+- Model earthquake insurance claim size using Gamma-distributed GLM
+- Model claim frequency using Negative Binomial-distributed GLM
+- Estimate pure premium rates by combining expected claim size and frequency
+
+Methodology Highlights:
+- Predictor variables include occupancy zone, cause of loss, commission, and insured value
+- Multicollinearity and significance tests conducted to refine model inputs
+- Goodness-of-fit and R² metrics used to validate model performance
+- Final premium model integrates both GLMs to simulate company revenue and premium differentiation
+
+Key Findings:
+- Occupancy zone, cause of loss, and insured value significantly affect claim size
+- Occupancy zone is the most influential factor in claim frequency
+- The combined model yields an Adjusted R² of 0.905 for claim size and 0.704 for claim frequency
+- Premium rates vary significantly across occupancy zones, supporting risk-based pricing strategies
+
+Tools & Technologies: R, GLM, Gamma & Negative Binomial Distribution, Actuarial Modeling, Insurance Analytics, Statistical Inference
 
 ---
 ## Certifications
