@@ -42,7 +42,7 @@ This project utilizes a multi-level data analysis framework to assess natural di
 
 ### R 
 
-- [Forecasting Export Value of Lampung Province Using Double Exponential Smoothing Method (2018–2022)](https://github.com/erichalestari/portofolio-ericha/blob/main/Nilai%20Ekspor.pdf)
+## [Forecasting Export Value of Lampung Province Using Double Exponential Smoothing Method (2018–2022)](https://github.com/erichalestari/portofolio-ericha/blob/main/Nilai%20Ekspor.pdf)
 [Worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/exponential-smothing-inflasi.pdf)
 
 This project focuses on forecasting the monthly export value of Lampung Province, Indonesia, using the Double Exponential Smoothing (DES) method. The study utilizes historical data from January 2018 to December 2022 obtained from the official website of the Central Bureau of Statistics (BPS). The goal is to identify export trends, generate short-term forecasts, and evaluate prediction accuracy.
@@ -62,7 +62,7 @@ Key Findings:
 - Forecasts indicate a gradual decline in export values from January to May 2023
 - The DES model achieved a MAPE of 18.13% and RMSE of 83.35 million, categorized as “Good” accuracy
 
-- [Multiple Linear Regression Analysis: The Impact of Macroeconomic Factors on the Indonesian Rupiah Exchange Rate (Case Study: 2021–2023](https://github.com/erichalestari/portofolio-ericha/blob/main/Analisis%20Regresi%20Berganda.pdf)
+## [Multiple Linear Regression Analysis: The Impact of Macroeconomic Factors on the Indonesian Rupiah Exchange Rate (Case Study: 2021–2023](https://github.com/erichalestari/portofolio-ericha/blob/main/Analisis%20Regresi%20Berganda.pdf)
 [worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/anaregtubes.Rmd)
 
 This project investigates the influence of five key macroeconomic variables—interest rate, inflation rate, money circulation, export value, and import value—on the exchange rate of the Indonesian Rupiah against the US Dollar using multiple linear regression analysis. The study covers data from 2021 to 2023 and includes classical assumption testing and parameter significance analysis.
