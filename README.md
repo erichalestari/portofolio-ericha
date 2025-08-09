@@ -42,10 +42,37 @@ This project utilizes a multi-level data analysis framework to assess natural di
 
 ### R 
 
-[Export Value Analysis Using Double Exponential Smoothing](https://github.com/erichalestari/portofolio-ericha/blob/main/Nilai%20Ekspor.pdf)
+#[Forecasting Export Value of Lampung Province Using Double Exponential Smoothing Method (2018–2022)](https://github.com/erichalestari/portofolio-ericha/blob/main/Nilai%20Ekspor.pdf)
 [Worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/exponential-smothing-inflasi.pdf)
 
-This project presents a time series analysis of Indonesia's export values from 2018 to 2023 using the Double Exponential Smoothing (DES) method, excluding seasonal components. Implemented in R with libraries such as readxl, forecast, and stats, the analysis reveals a consistent upward trend in export performance and generates five-period forecasts indicating gradual growth. Data visualization includes actual values, fitted trends, and forecasted points, while accuracy metrics like MAPE and MSE confirm the model's reliability for strategic planning and decision-making
+This project focuses on forecasting the monthly export value of Lampung Province, Indonesia, using the Double Exponential Smoothing (DES) method. The study utilizes historical data from January 2018 to December 2022 obtained from the official website of the Central Bureau of Statistics (BPS). The goal is to identify export trends, generate short-term forecasts, and evaluate prediction accuracy.
+
+Objectives:
+-Analyze the data pattern of Lampung’s export values over five years
+-Forecast export values for the upcoming five months (Jan–May 2023)
+-Assess the accuracy of the DES model using MAPE and RMSE metrics
+
+Methodology Highlights:
+-Time series decomposition to identify trend components
+-Application of Holt’s DES with optimized smoothing parameters (α = 0.461, β = 0.1)
+-Accuracy evaluation using Mean Absolute Percentage Error (MAPE) and Root Mean Square Error (RMSE)
+
+Key Findings:
+-The export data exhibits a clear upward trend over time
+-Forecasts indicate a gradual decline in export values from January to May 2023
+-The DES model achieved a MAPE of 18.13% and RMSE of 83.35 million, categorized as “Good” accuracy
+
+#[Multiple Linear Regression Analysis: The Impact of Macroeconomic Factors on the Indonesian Rupiah Exchange Rate (Case Study: 2021–2023](https://github.com/erichalestari/portofolio-ericha/blob/main/Analisis%20Regresi%20Berganda.pdf)
+[worksheet](https://github.com/erichalestari/portofolio-ericha/blob/main/anaregtubes.Rmd)
+This project investigates the influence of five key macroeconomic variables—interest rate, inflation rate, money circulation, export value, and import value—on the exchange rate of the Indonesian Rupiah against the US Dollar using multiple linear regression analysis. The study covers data from 2021 to 2023 and includes classical assumption testing and parameter significance analysis.
+
+Methodology Highlights:
+-Data processing using Excel and RStudio
+-Classical assumption tests: normality, autocorrelation, heteroscedasticity, multicollinearity
+-Significance tests: F-test, T-test, and coefficient of determination (R²)
+Key Findings:
+-Interest rate, inflation rate, and export value have a statistically significant impact on the Rupiah exchange rate
+-The regression model yields an Adjusted R² of 0.8515, indicating that 85.15% of the variation in exchange rate is explained by the independent variables
 
 
 ---
