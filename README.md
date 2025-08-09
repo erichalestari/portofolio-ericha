@@ -27,7 +27,7 @@ Beyond technical skills, I’ve demonstrated leadership through organizational r
 ## Curriculum Vitae 
 
 A snapshot of my educational background, professional experience, projects, and skills—crafted to reflect my journey from actuarial science graduate to data analyst and entrepreneur.
-📎 [View My CV](https://drive.google.com/file/d/10xDoUPy78sYDoBU5PD_qcEZKam6-irZ-/view?usp=drivesdk)
+📎 [View My CV](https://github.com/erichalestari/portofolio-ericha/blob/main/cv%20ericha.pdf)
 
 ---
 ## Project 
