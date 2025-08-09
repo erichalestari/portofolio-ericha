@@ -1,0 +1,53 @@
+---
+title: "tubesanareggg"
+author: "Riza Rahmi Dewi"
+date: "2024-05-12"
+output: html_document
+---
+```{r}
+#uji korelasi
+library(psych)
+pairs.panels(data_anareg4, method = "spearman", hist.col = "red", densty = T, ellipses = T, lm =F)
+```
+
+
+```{r}
+
+df = subset(data_anareg4)
+df
+```
+
+```{r}
+summary(df)
+```
+```{r}
+modelreg=lm(df$`Nilai Tukar Rupiah`~df$inflasi+df$`uang beredar`+df$`BI rate`+df$`nilai impor`+df$`nilai ekspor`,data=df)
+summary(modelreg)
+anova(modelreg)
+```
+```{r}
+#normalitas
+sisa <- residuals(modelreg)
+shapiro.test(sisa)
+qqnorm(data_anareg4$`Nilai Tukar Rupiah`,pch = 1, frame = FALSE)
+qqline(data_anareg4$`Nilai Tukar Rupiah`, col = "red", lwd = 2)
+```
+
+
+```{r}
+#autokorelasi 
+dwtest(modelreg)
+#Heteroskedisitas
+bptest(modelreg)
+plot(modelreg)
+#multikolinearitas
+vif(modelreg)
+```
+
+```{r}
+cormat=cor(df)
+corrplot::corrplot(cormat, method = "square")
+
+```
+
+
