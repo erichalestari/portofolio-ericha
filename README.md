@@ -33,9 +33,26 @@ A snapshot of my educational background, professional experience, projects, and 
 ## Project 
 
 ### Python 
-[Disaster Risk Profiling & Insurance Premium Estimation](https://github.com/erichalestari/global-risk-metrics/blob/main/Risk_Profiling_and_Insurance_Premium_Estimation.ipynb)
 
-This project utilizes a multi-level data analysis framework to assess natural disaster risks and estimate insurance premiums based on regional vulnerability. Through exploratory data analysis and risk modeling, it identifies high-risk zones, evaluates exposure and vulnerability factors, and simulates premium costs using annual loss estimates. The results are presented with visualizations and summary tables to support insurance strategy and risk mitigation policies.
+## [Disaster Risk Profiling & Insurance Premium Estimation](https://github.com/erichalestari/global-risk-metrics/blob/main/Risk_Profiling_and_Insurance_Premium_Estimation.ipynb)
+
+This project develops a data-driven framework for assessing regional disaster risk and estimating insurance premiums based on expected losses. Using historical disaster data, the notebook applies exploratory data analysis (EDA), risk scoring techniques, and premium modeling to support decision-making in disaster risk financing.
+
+Objectives:
+- Profile regional disaster risk based on frequency, severity, and exposure
+- Estimate insurance premiums using expected loss and risk classification
+- Visualize risk distribution and premium ranges across regions
+
+Methodology Highlights:
+- Data preprocessing and feature engineering from public disaster datasets
+- Risk scoring using normalized metrics and weighted aggregation
+- Premium estimation using actuarial principles and loss modeling
+- Visual outputs including risk maps, score distributions, and premium tables
+
+Key Insights:
+- Regions with high disaster frequency and loss severity require differentiated premium strategies
+- The model supports scalable integration with real-world insurance schemes
+- Visualizations enhance interpretability for stakeholders and policymakers
 
 ### SQL 
 
