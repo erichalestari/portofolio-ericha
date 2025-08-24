@@ -7,9 +7,11 @@
 
 ## About Me
 
-As a recent graduate in Actuarial Science, I bring a solid understanding of insurance and financial principles, combined with practical data analysis skills in R, Python, and SQL. During my internship at the Central Bureau of Statistics, I worked on relevant projects including export-import forecasting and survey data analysis using SPSS and Excel. I’m well-versed in data visualization tools like ggplot2 and Excel Charts, and have experience building automation tools with VBA and Pivot Tables to streamline workflows.
+As a recent graduate in Actuarial Science from Institut Teknologi Sumatera (GPA 3.14, Class of 2025), I bring a solid foundation in insurance and financial principles, supported by practical data analysis skills in R, Python, and SQL. My academic journey included specialized coursework in Sharia Insurance, where I completed two major projects: a product review of BNI Life Hy-End Pro Syariah and a Tabarru’ fund estimation using Cost of Insurance (COI) modeling. These projects deepened my understanding of ethical risk-sharing, Islamic contract structures (akad), and actuarial applications in Sharia-compliant insurance.
 
-Beyond technical skills, I’ve demonstrated leadership through organizational roles and entrepreneurial experience, including planning and running business initiatives such as a healthy food startup and managing my current local laundry business. I am a communicative team player who learns quickly and adapts easily to new environments. With a blend of analytical thinking, business insight, and people skills, I’m excited to grow professionally and contribute to impactful, data-driven decisions.
+During my internship at the Central Bureau of Statistics, I worked on export-import forecasting and survey data analysis using SPSS and Excel. I’m well-versed in data visualization tools like ggplot2 and Excel Charts, and have experience building automation tools with VBA and Pivot Tables to streamline workflows.
+
+Beyond technical skills, I’ve demonstrated leadership through organizational roles and entrepreneurial experience, including planning and running business initiatives such as a healthy food startup and managing my current local laundry business. I am a communicative team player who learns quickly and adapts easily to new environments. With a blend of analytical thinking, business insight, and people skills, I’m excited to grow professionally and contribute to impactful, data-driven decisions—especially in the field of inclusive and ethical insurance.
 
 ---
 ### 🗂️ Table of Contents
