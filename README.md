@@ -19,7 +19,7 @@ Beyond technical skills, I’ve demonstrated leadership through organizational r
 - [📊 Projects](#projects)
   - [ Python](#Python)
   - [ R](#R)
-  - [Actuarial Application in Sharia Insurance](#Actuarial)
+  - [Actuarial Application in Sharia Insurance](#actuarial-aplication-in-sharia-insurance)
 - [📜 Certifications](#certifications)
 - [🤝 Connect with Me](#connect-with-me)
 
