@@ -19,7 +19,7 @@ Beyond technical skills, I’ve demonstrated leadership through organizational r
 - [📊 Projects](#projects)
   - [ Python](#Python)
   - [ R](#R)
-  - [Actuarial Application in Sharia Insurance](#Actuarial-Application-in-Sharia-Insurance)
+  - [Actuarial Application in Sharia Insurance](#Actuarial)
 - [📜 Certifications](#certifications)
 - [🤝 Connect with Me](#connect-with-me)
 
@@ -122,7 +122,7 @@ Tools & Technologies: R, GLM, Gamma & Negative Binomial Distribution, Actuarial 
 
 ### Actuarial Aplication in Sharia Insurance 
 
-## [Analytical Review of Unit-Linked Sharia Insurance Product]
+## [Analytical Review of Unit-Linked Sharia Insurance Product](https://github.com/erichalestari/portofolio-ericha/blob/main/ASURANSI%20SYARIAH.pdf)
 
 An in-depth evaluation of BNI Life Hy-End Pro Syariah, focusing on:
 - Contract Structures: Wakalah bil Ujrah, Tabarru’, Mudharabah Musytarakah
@@ -130,7 +130,8 @@ An in-depth evaluation of BNI Life Hy-End Pro Syariah, focusing on:
 - Fee Analysis: Breakdown of acquisition, administration, surrender, and cooling-off charges
 - Sharia Compliance Assessment: Review of product alignment with risk-sharing and non-riba principles
 
-## [Estimating Tabarru’ Fund in Sharia Life Insurance]
+## [Estimating Tabarru’ Fund in Sharia Life Insurance](https://github.com/erichalestari/portofolio-ericha/blob/main/Asuransi%20Syariah%20Kelompok%206.pptx)
+
 This is a group project I worked on to estimate the Tabarru’ Fund in a Sharia-based life insurance product. We used the Cost of Insurance (COI) method and looked at how interest rates and loading factors affect the amount participants need to pay.
 
 Purpose & Method
