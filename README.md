@@ -12,15 +12,14 @@ As a recent graduate in Actuarial Science, I bring a solid understanding of insu
 Beyond technical skills, I’ve demonstrated leadership through organizational roles and entrepreneurial experience, including planning and running business initiatives such as a healthy food startup and managing my current local laundry business. I am a communicative team player who learns quickly and adapts easily to new environments. With a blend of analytical thinking, business insight, and people skills, I’m excited to grow professionally and contribute to impactful, data-driven decisions.
 
 ---
-## 🗂️ Table of Contents
+### 🗂️ Table of Contents
 
 - [📌 About Me](#about-me)
-- [💼 Curriculum Vitae](Curriculum_Vitae)
+- [💼 Curriculum Vitae](#Curriculum-Vitae)
 - [📊 Projects](#projects)
-  - [ Python](#export-import-forecasting)
-  - [ SQL](#healthy-food-business-initiative)
-  - [ R](#local-laundry-business)
-  - [Actuarial Application in Sharia Insurance] 
+  - [ Python](#Python)
+  - [ R](#R)
+  - [Actuarial Application in Sharia Insurance](#Actuarial-Application-in-Sharia-Insurance)
 - [📜 Certifications](#certifications)
 - [🤝 Connect with Me](#connect-with-me)
 
@@ -120,6 +119,33 @@ Key Findings:
 - Premium rates vary significantly across occupancy zones, supporting risk-based pricing strategies
 
 Tools & Technologies: R, GLM, Gamma & Negative Binomial Distribution, Actuarial Modeling, Insurance Analytics, Statistical Inference
+
+### Actuarial Aplication in Sharia Insurance 
+
+## [Analytical Review of Unit-Linked Sharia Insurance Product]
+
+An in-depth evaluation of BNI Life Hy-End Pro Syariah, focusing on:
+- Contract Structures: Wakalah bil Ujrah, Tabarru’, Mudharabah Musytarakah
+- Benefits & Risk Management: Life protection, Sharia-compliant investment handling, and claim payments from the tabarru’ fund
+- Fee Analysis: Breakdown of acquisition, administration, surrender, and cooling-off charges
+- Sharia Compliance Assessment: Review of product alignment with risk-sharing and non-riba principles
+
+## [Estimating Tabarru’ Fund in Sharia Life Insurance]
+This is a group project I worked on to estimate the Tabarru’ Fund in a Sharia-based life insurance product. We used the Cost of Insurance (COI) method and looked at how interest rates and loading factors affect the amount participants need to pay.
+
+Purpose & Method
+- Goal: To calculate the Tabarru’ Fund using mortality data from the Indonesian Mortality Table (TMI IV) and BI interest rates from 2018–2022.
+- Tools: We used EasyFit and Microsoft Excel for simulations.
+- Case Study: Two participants (male and female), both aged 40, with 5-year term insurance and a death benefit of Rp200 million.
+
+Key Results
+- Higher loading factors lead to higher COI and Tabarru’ Fund values.
+- Male participants pay more than females due to higher mortality risk.
+- Higher interest rates reduce the COI and Tabarru’ Fund.
+- The Tabarru’ Fund increases each year during the protection period.
+
+This project helped me understand how interest rates and management costs play a big role in Sharia insurance calculations. It also showed how actuarial methods can support fair and transparent fund management based on Islamic principles.
+
 
 ---
 ## Certifications
