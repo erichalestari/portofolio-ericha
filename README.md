@@ -17,9 +17,10 @@ Beyond technical skills, I’ve demonstrated leadership through organizational r
 - [📌 About Me](#about-me)
 - [💼 Curriculum Vitae](Curriculum_Vitae)
 - [📊 Projects](#projects)
-  - [📦 Python](#export-import-forecasting)
-  - [🥗 SQL](#healthy-food-business-initiative)
-  - [🧼 R](#local-laundry-business)
+  - [ Python](#export-import-forecasting)
+  - [ SQL](#healthy-food-business-initiative)
+  - [ R](#local-laundry-business)
+  - [Actuarial Application in Sharia Insurance] 
 - [📜 Certifications](#certifications)
 - [🤝 Connect with Me](#connect-with-me)
 
